@@ -1,16 +1,19 @@
-# Project Name
+# Orly Airpark Website Mockup
 
-Short, clear description of what this project is and what problem it solves.  
-Keep this to one or two sentences.
+A lightweight front-end mockup of the Orly Airpark website built with HTML, Tailwind CSS,
+and Vite for fast development and iteration. This project focuses on layout, visual
+structure, and content flow rather than backend functionality.
 
 ---
 
 ## Overview
 
-This project is intended to serve as a foundation for building and iterating on a digital product.  
-It includes a basic structure, placeholder content, and minimal assumptions so it can be adapted to different use cases.
+This project serves as a static prototype and design exploration for the Orly Airpark
+website redesign. It provides a modern front-end setup using Vite for bundling and
+Tailwind CSS for styling, enabling rapid UI iteration and clean structure.
 
-The focus is on clarity, maintainability, and gradual enhancement.
+The emphasis is on clarity, maintainability, and separation between editorial-style
+content and operational aviation information.
 
 ---
 
@@ -18,29 +21,42 @@ The focus is on clarity, maintainability, and gradual enhancement.
 
 The goals of this project are to:
 
-- Provide a starting point for development
-- Establish a clear structure early
-- Allow fast iteration without overcommitment to design or features
+- Mock up the redesigned Orly Airpark website experience
+- Establish a clean, scalable front-end structure
+- Enable fast visual iteration and layout experimentation
+- Serve as a reference for future production implementation
 
 ---
 
 ## Features
 
-- Core layout and structure
-- Placeholder content for rapid prototyping
-- Easily extensible foundation
+- Vite-powered development environment
+- Tailwind CSS utility-first styling
+- Core layout and page structure
+- Placeholder content and sections for rapid prototyping
+- Responsive design foundation
 
-Add or remove features as the project evolves.
+Features can be expanded or replaced as the project evolves.
 
 ---
 
 ## Getting Started
 
 1. Clone the repository
-2. Open the project in your editor
-3. Start modifying content and structure as needed
 
-No special setup is required unless stated otherwise.
+2. Install dependencies
+
+   ```bash
+   pnpm install
+   ```
+
+3. Start the development server
+
+   ```bash
+   pnpm dev
+   ```
+
+4. Open the provided local URL in your browser
 
 ---
 
@@ -48,9 +64,10 @@ No special setup is required unless stated otherwise.
 
 This project can be used as:
 
-- A mockup or prototype
-- A starting point for a production build
-- A reference structure for similar projects
+- A visual mockup and prototype
+- A front-end foundation for a production site
+- A design exploration environment
+- A reference layout for similar aviation or destination-style websites
 
 ---
 
@@ -58,23 +75,36 @@ This project can be used as:
 
 You are expected to:
 
-- Replace placeholder text
-- Adjust layout and styles
-- Add project-specific functionality
+- Replace placeholder content with real copy and media
+- Adjust layout sections as needed
+- Refine Tailwind styles to match branding
+- Add interactivity or backend integrations later if required
 
-This template is intentionally minimal to avoid early constraints.
+The structure is intentionally lightweight to avoid early design lock-in.
+
+---
+
+## Project Structure
+
+Typical structure includes:
+
+- `index.html` – main entry point
+- `src/` – assets and optional modular files
+- `vite.config.js` – Vite bundler configuration
+
+This may evolve as complexity increases.
 
 ---
 
 ## Contributing
 
-If this project accepts contributions:
+If contributions are accepted:
 
-- Keep changes small and focused
-- Maintain clarity and consistency
-- Avoid introducing unnecessary complexity
+- Keep changes focused and intentional
+- Follow existing layout and naming conventions
+- Avoid introducing unnecessary dependencies
 
-Add contribution guidelines here if needed.
+Add formal contribution guidelines if needed.
 
 ---
 
@@ -92,5 +122,7 @@ Examples:
 
 ## Notes
 
-This repository is a starting point, not a finished product.  
-Expect structure and scope to evolve as requirements become clearer.
+This repository represents a working mockup, not a final production build. Expect
+structure, layout, and scope to evolve as design decisions are validated and refined.
+
+Use this as a flexible foundation rather than a fixed template.
