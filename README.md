@@ -110,13 +110,10 @@ Add formal contribution guidelines if needed.
 
 ## License
 
-Specify the license for this project here.
+Copyright (c) 2026 Superior Software Solutions.
 
-Examples:
-
-- MIT
-- Apache 2.0
-- Proprietary / All rights reserved
+This project and its contents are owned by the project owner. No part of this repository
+may be copied, modified, distributed, or used without explicit permission.
 
 ---
 
